@@ -3,7 +3,7 @@ Simple Watchtime tracker for tracking time spent watching content
 
 Currently uses my watchtime. but replace the data inside of the txt files for your own!
 
-To use, for anime use a tab
+# To use, for anime use a tab
 
 so: {minutes}  {episodes}
 
@@ -11,7 +11,7 @@ so: {minutes}  {episodes}
 
 
 
-and for youtube videos its just length of video, see below:
+# and for youtube videos its just length of video, see below:
 
 37:29
 
