@@ -1,18 +1,40 @@
 # WatchTimeTracker
-Simple Watchtime tracker for tracking time spent watching content
 
-Currently uses my watchtime. but replace the data inside of the txt files for your own!
+A simple watch time tracker for tracking time spent watching content.
+Currently uses my watch history as example data — replace the content
+inside the txt files with your own!
 
-# To use, for anime use a tab
+---
 
-so: {minutes}[tab]{episodes} [new line] //dont actually put new line im using that to represent each line having its own data and dont actually put tab, press the tab key on your keyboard instead
+## animeHistory.txt
+Each line is one anime series. Use a real tab key (not spaces) between the two numbers.
 
-{minutes}[tab]{episodes}
+Format:
+{episode length in minutes}    {episodes watched}
 
+Example:
+24    13
+24    26
+23    12
 
+---
 
-# and for youtube videos its just length of video, see below:
+## watchHistory.txt
+Each line is one YouTube video. Just paste the video duration as shown on YouTube.
 
-37:29 [new line] //dont actually put new line im using that to represent each line having its own data
+Format:
+H:MM:SS  or  M:SS
 
-24:07
+Example:
+1:25:04
+37:29
+0:31
+
+---
+
+## Requirements
+- Java JRE installed
+- animeHistory.txt and watchHistory.txt must be in the same folder as WatchCounter.jar
+
+## Running
+Double-click WatchCounter.jar
