@@ -27,10 +27,11 @@ Format:
 H:MM:SS  or  M:SS
 
 Example:
+```
 1:25:04
 37:29
 0:31
-
+```
 ---
 
 ## Requirements
