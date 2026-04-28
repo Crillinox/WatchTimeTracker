@@ -13,10 +13,11 @@ Format:
 {episode length in minutes}    {episodes watched}
 
 Example:
+```
 24    13
 24    26
 23    12
-
+```
 ---
 
 ## watchHistory.txt
