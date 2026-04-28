@@ -5,14 +5,14 @@ Currently uses my watchtime. but replace the data inside of the txt files for yo
 
 # To use, for anime use a tab
 
-so: {minutes}  {episodes}
+so: {minutes}[tab]{episodes}
 
-{minutes}  {episodes}
+{minutes}[tab]{episodes}
 
 
 
 # and for youtube videos its just length of video, see below:
 
-37:29
+37:29 [new line]
 
 24:07
